@@ -30,6 +30,6 @@ class Bai2 : AppCompatActivity() {
         list.add(ItemMenu("Doge 2", R.drawable.doge_2))
         list.add(ItemMenu("Doge 3", R.drawable.doge3))
 
-        recyclerview_bai2.adapter = RecyclerAdapter(list)
+        recyclerview_bai2.adapter = RecyclerAdapter(this,list)
     }
 }
