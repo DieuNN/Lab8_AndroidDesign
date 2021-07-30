@@ -12,12 +12,8 @@ import com.example.lab8_androiddesign.R
 import com.example.lab8_androiddesign.R.id.text_view_card_view_bai2
 import com.example.lab8_androiddesign.model.ItemMenu
 
-class RecyclerAdapter(context: Context, list: ArrayList<ItemMenu>) :
+class RecyclerAdapter(private val context: Context, private val list: ArrayList<ItemMenu>) :
     RecyclerView.Adapter<RecyclerAdapter.ViewHolder>() {
-
-    private val listSize = list.size
-    private val list = list
-    private val context = context
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerAdapter.ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.card_view, null)
@@ -43,7 +39,7 @@ class RecyclerAdapter(context: Context, list: ArrayList<ItemMenu>) :
     }
 
     override fun getItemCount(): Int {
-        return listSize
+        return list.size
     }
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

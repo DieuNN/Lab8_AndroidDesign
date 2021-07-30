@@ -9,5 +9,4 @@ class ItemMenu {
         this.icon = icon
     }
 
-    constructor()
 }

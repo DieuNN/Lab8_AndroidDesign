@@ -13,7 +13,7 @@
 
     <TextView
         android:id="@+id/text_view_item_row"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         android:text="Name example"
         android:layout_toRightOf="@+id/image_view_item_row"
         android:layout_width="match_parent"

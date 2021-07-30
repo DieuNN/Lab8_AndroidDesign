@@ -1,15 +1,13 @@
 package com.example.lab8_androiddesign.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.lab8_androiddesign.R
 import com.example.lab8_androiddesign.adapter.RecyclerAdapter
 import com.example.lab8_androiddesign.model.ItemMenu
 import kotlinx.android.synthetic.main.activity_bai2.*
-import kotlinx.android.synthetic.main.card_view.*
 
 class Bai2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

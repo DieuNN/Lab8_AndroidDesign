@@ -1,15 +1,12 @@
 package com.example.lab8_androiddesign.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
-import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import com.example.lab8_androiddesign.R
-import com.example.lab8_androiddesign.adapter.MenuAdapter
 import com.example.lab8_androiddesign.fragment.*
-import com.example.lab8_androiddesign.model.ItemMenu
 import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.activity_bai1.*
 
