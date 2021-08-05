@@ -19,8 +19,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, Bai2::class.java))
         }
 
-        button_bai3.setOnClickListener {
-            startActivity(Intent(this, Bai3::class.java))
-        }
+
     }
 }

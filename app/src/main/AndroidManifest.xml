@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab8_AndroidDesign">
-        <activity android:name=".activity.Bai3"/>
         <activity android:name=".activity.Bai2"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:name=".activity.Bai1"
